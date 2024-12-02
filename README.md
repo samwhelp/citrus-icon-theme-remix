@@ -50,7 +50,7 @@ mkdir -p ../icons
 ### Debian Package
 
 | Debian Package |
-| --- |
+| -------------- |
 | [numix-icon-theme-circle](https://packages.debian.org/stable/numix-icon-theme-circle) |
 | [numix-icon-theme](https://packages.debian.org/stable/numix-icon-theme) |
 | [papirus-icon-theme](https://packages.debian.org/stable/papirus-icon-theme) |
