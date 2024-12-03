@@ -99,3 +99,4 @@ sudo apt-get install gnome-icon-theme breeze-icon-theme
 | Numix Project / [numix-icon-theme](https://github.com/numixproject/numix-icon-theme) |
 | KDE Invent / [breeze-icon-theme](https://invent.kde.org/frameworks/breeze-icons) |
 | [demo-wallpaper-collection](https://github.com/samwhelp/demo-create-debian-package/tree/main/demo/wallpaper-collection/wallpaper-collection/demo-wallpaper-collection) |
+| [canta-icon-theme-remix](https://github.com/samwhelp/canta-icon-theme-remix) |
