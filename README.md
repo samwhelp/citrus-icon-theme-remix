@@ -98,3 +98,4 @@ sudo apt-get install gnome-icon-theme breeze-icon-theme
 | Papirus Development Team / [papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |
 | Numix Project / [numix-icon-theme](https://github.com/numixproject/numix-icon-theme) |
 | KDE Invent / [breeze-icon-theme](https://invent.kde.org/frameworks/breeze-icons) |
+| [demo-wallpaper-collection](https://github.com/samwhelp/demo-create-debian-package/tree/main/demo/wallpaper-collection/wallpaper-collection/demo-wallpaper-collection) |
