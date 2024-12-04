@@ -22,6 +22,8 @@ cd Citrus-icon-theme
 mkdir -p ../icons
 
 ./install.sh -a -d $(pwd)/../icons
+
+cd "${OLDPWD}"
 ```
 
 
