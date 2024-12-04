@@ -12,6 +12,8 @@
 * [Pling](https://www.pling.com/p/1334044)
 * [GitHub](https://github.com/yeyushengfan258/Citrus-icon-theme)
 
+> install all
+
 ``` sh
 git clone https://github.com/yeyushengfan258/Citrus-icon-theme.git
 
@@ -40,6 +42,39 @@ mkdir -p ../icons
 | ---------- | -------- |
 | [Citrus-red](https://github.com/samwhelp/citrus-icon-theme-remix/tree/main/icons/Citrus-red) | [Inherits=Numix-Circle-Light,Numix-Light,Papirus-Light,Adwaita,hicolor](https://github.com/samwhelp/citrus-icon-theme-remix/blob/main/icons/Citrus-red/index.theme#L4) |
 | [Citrus-red-dark](https://github.com/samwhelp/citrus-icon-theme-remix/tree/main/icons/Citrus-red-dark) | [Inherits=Numix-Circle,Numix,Papirus-Dark,Adwaita,hicolor](https://github.com/samwhelp/citrus-icon-theme-remix/blob/main/icons/Citrus-red-dark/index.theme#L4) |
+
+
+> install red
+
+``` sh
+git clone https://github.com/yeyushengfan258/Citrus-icon-theme.git
+
+cd Citrus-icon-theme
+
+mkdir -p ../icons
+
+./install.sh -red -d $(pwd)/../icons
+
+cd "${OLDPWD}"
+```
+
+> adjust Inherits for Citrus-red
+
+``` sh
+value="Numix-Circle-Light,Numix-Light,Papirus-Light,Adwaita,hicolor"
+index_theme_file_path="icons/Citrus-red/index.theme"
+sed -i "s|^Inherits=.*|Inherits=${value}|g" "${index_theme_file_path}"
+```
+
+> adjust Inherits for Citrus-red-dark
+
+``` sh
+value="Numix-Circle,Numix,Papirus-Dark,Adwaita,hicolor"
+index_theme_file_path="icons/Citrus-red-dark/index.theme"
+sed -i "s|^Inherits=.*|Inherits=${value}|g" "${index_theme_file_path}"
+```
+
+> [apply case](https://github.com/samwhelp/deb-recipe/blob/main/recipe/cook-appearance-citrus-icon-theme/cook-appearance-citrus-icon-theme/asset/installer.sh#L71-L77)
 
 
 
